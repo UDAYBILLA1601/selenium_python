@@ -1,0 +1,13 @@
+{
+  "browsers": {
+    "chrome": {
+      "args": ["--headless", "--disable-gpu", "--window-size=1920,1080"],
+      "binary_location": "/path/to/chrome",
+      "download_dir": "/path/to/downloads"
+    },
+    "firefox": {
+      "args": ["-headless"],
+      "binary_location": "/path/to/firefox"
+    }
+  }
+}
